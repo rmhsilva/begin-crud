@@ -1,6 +1,6 @@
 ---
 title: Example Page
-type: 
+type:  blog
 slug: example-page
 date: 1612859578126
 ---
@@ -21,7 +21,7 @@ Some content
 
 
 
-A block ref: <span class="roam-blockref">aa5VOZcW1</span>
+A block ref: <span class="roam-blockref">Don't use this for important things.</span>
 
 
 
@@ -48,7 +48,7 @@ An embed from a different page:
 This page isn't published
 * But it has some bullet
 * Points
-* And another reference <span class="roam-blockref">XPJPOZNVe</span>
+* And another reference <span class="roam-blockref">foo</span>
 * And another embed 
 
 <div class="roam-embed">

@@ -1,6 +1,6 @@
 ---
 title: An internal published block
-type: 
+type:  aside
 slug: an-internal-published-block
 date: 1612859598600
 ---
