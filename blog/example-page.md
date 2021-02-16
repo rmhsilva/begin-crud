@@ -4,7 +4,7 @@ type:  blog
 slug: example-page
 date: 1612859578126
 ---
-blah
+
 # Example Page
 
 
