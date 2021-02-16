@@ -1,5 +1,5 @@
 ---
-title: An internal published block
+title: An internal published blockdsa
 type:  aside
 slug: an-internal-published-block
 date: 1612859598600
