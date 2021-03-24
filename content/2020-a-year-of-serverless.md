@@ -1,7 +1,7 @@
 ---
 title: "2020: A Year Of Serverless"
 date: 2021-02-16T18:02:08.636000
-
+publish-rmhsilva: "essays"
 ---
 
 
@@ -117,6 +117,6 @@ https://www.simplethread.com/serverless-im-a-big-kid-now/
 
 ## 1 Reference
 
-- [** Start Here **](content/start-here)
+- [** Start Here **](/content/start-here)
 
 </div>
