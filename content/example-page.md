@@ -20,8 +20,8 @@ A bulleted list:
 * and a linked page February 8th, 2021
 * with a nested bullet list
 
-    - point 1 <span class="roam-highlighted">is highlighted</span> in roam and <span class="roam-highlighted">so is this bit</span>
-    - point 2 _is italic_ in roam
+  - point 1 <span class="roam-highlighted">is highlighted</span> in roam and <span class="roam-highlighted">so is this bit</span>
+  - point 2 _is italic_ in roam
 
 A block ref: <span class="roam-blockref">Things marked (WIP) are not live on [ivywrite.io](https://ivywrite.io) yet.</span>
 
@@ -161,6 +161,10 @@ this is a page
 
 
 An [external link to some interesting work](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Proof_of_correctness) which has a "#" symbol in the link.
+
+A line
+With
+Linebreaks
 
 <div markdown="1" class="roam-backrefs">
 
