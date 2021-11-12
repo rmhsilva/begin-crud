@@ -6,9 +6,9 @@ date: 2021-02-09T08:32:58.126000
 
 Things marked (WIP) are not live on [ivywrite.io](https://ivywrite.io) yet.
 
-You can use tags to publish (as above), or <span class="roam-page">[Capture Attributes](capture-attributes)</span> instead.
+You can use tags to publish (as above), or <span class="roam-page">[Capture Attributes](/content/capture-attributes)</span> instead.
 
-<span class="roam-page">[IvyWrite](ivywrite)</span> can use either, though using attributes gives you a little more power because you can use the attribute's value in the output.
+<span class="roam-page-missing">IvyWrite</span> can use either, though using attributes gives you a little more power because you can use the attribute's value in the output.
 
 ## Roam headings work as expected 
 
@@ -16,7 +16,7 @@ They're converted into the expected markdown heading level.
 
 A bulleted list:
 
-* with a **bold bit**, and a <span class="roam-tag">[#hashtag](hashtag)</span> and a page hashtag: <span class="roam-tag">[#An example attr page](an-example-attr-page)</span> 
+* with a **bold bit**, and a #hashtag and a page hashtag: #[[An example attr page]] 
 * and a linked page February 8th, 2021
 * with a nested bullet list
 
@@ -43,7 +43,7 @@ Embed content from a different page:
 <div markdown="1" class="roam-embed">
 
 
-This page isn't published, but some of its blocks are referenced in <span class="roam-page">[Example Page](example-page)</span>.
+This page isn't published, but some of its blocks are referenced in <span class="roam-page">[Example Page](/content/example-page)</span>.
 
 * It has some bullets
 * And another reference: <span class="roam-blockref">Another embedded block!</span>
@@ -107,7 +107,7 @@ some bar
 
 </div></td><td><div markdown="1" class="roam-block">
 
-first foo linked to <span class="roam-page">[** Start Here **](start-here)</span>
+first foo linked to <span class="roam-page-missing">** Start Here **</span>
 
 </div><div markdown="1" class="roam-block">
 
@@ -160,7 +160,7 @@ this is a page
 </div></td><td></td></tr></tbody></table></div>
 
 
-An [external link to some interesting work](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Proof_of_correctness) which has a "#" symbol in the link.
+An [external link to some interesting work](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm<span class="roam-tag">[#Proof_of_correctness)](proof-of-correctness)</span> which has a "<span class="roam-tag-missing">#"</span> symbol in the link.
 
 A line
 With
@@ -168,7 +168,7 @@ Linebreaks
 
 <div markdown="1" class="roam-backrefs">
 
-## 3 References
+### 3 references to this page
 
 - [A Private Referenced Page](/content/a-private-referenced-page)
 - [** Start Here **](/content/start-here)
